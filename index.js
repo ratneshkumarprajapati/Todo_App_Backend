@@ -4,7 +4,8 @@ const dotenv=require("dotenv");
 const cors=require("cors")
 dotenv.config();
 app.use(cors({
-    origin:"http://localhost:5173"
+    origin:"http://localhost:5173",
+    origin:"https://todo-app-frontend-mu-olive.vercel.app/",
 }))
 const PORT=process.env.PORT||4000
 const UserRouter=require("./routes/User")
