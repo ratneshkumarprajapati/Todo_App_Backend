@@ -5,7 +5,7 @@ const cors=require("cors")
 dotenv.config();
 app.use(cors({
     // origin:"http://localhost:5173",
-    origin:"https://todo-app-frontend-mu-olive.vercel.app/",
+    origin:"https://todo-app-frontend-mu-olive.vercel.app",
     credentials:true
 }
 
